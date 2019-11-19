@@ -25,7 +25,7 @@ student
 		}
 	}
 字频统计
-    public static void print(String str){
+           public static void print(String str){
         HashMap<Character, Integer> map = new HashMap<>();
         char[] arr = str.toCharArray();
         for (char c : arr) {
