@@ -24,8 +24,7 @@ student
 			i++;
 		}
 	}
-
-字频统计       ------------------------------------------------------2
+字频统计-------------------------------------------------------------2
     public static void print(String str){
         HashMap<Character, Integer> map = new HashMap<>();
         char[] arr = str.toCharArray();
