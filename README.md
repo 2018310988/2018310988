@@ -11,6 +11,7 @@ student
 3.	考虑操作中可能出现的异常，在程序中设计异常处理程序
 
 定义每7个字添加一个“，”，每14个字添加一个“。”，再将长恨歌输入。 ---------1
+	
 	public static void main(String[] args) {
 		int i=1;
 		char[] char_chg=chg.toCharArray();
@@ -24,8 +25,9 @@ student
 			i++;
 		}
 	}
-字频统计
-           public static void print(String str){
+字频统计  ----------------------------------------------------------2
+           
+	   public static void print(String str){
         HashMap<Character, Integer> map = new HashMap<>();
         char[] arr = str.toCharArray();
         for (char c : arr) {
