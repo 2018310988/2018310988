@@ -26,7 +26,7 @@ student
 	}
 
 字频统计       ------------------------------------------------------2
-        public static void print(String str){
+    public static void print(String str){
         HashMap<Character, Integer> map = new HashMap<>();
         char[] arr = str.toCharArray();
         for (char c : arr) {
@@ -34,3 +34,4 @@ student
         }
         for (Character c : map.keySet()) {
             System.out.println(c+":"+map.get(c));
+        }
